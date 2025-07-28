@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+Marker+Gothic&family=Pacifico&family=Press+Start+2P&display=swap');
+
+
+*{
+    cursor: url('img/icon/fish-bone-16.png'), auto;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(30, 30, 30);
+    font-family: "Pacifico", cursive;
+}
+a:hover{
+    cursor: url('img/icon/tiger-16x16.png'), auto;
+}
+
+.swiper-slide img{
+    width: 7vw;
+}
+.swiper-slide{
+    display: grid;
+    
+    color: white;
+}
+header{
+    background-color: #FFFA65;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+.logo img{
+    width:3em;
+    margin-right: 5px;
+}
+.logo{
+    display: flex;
+    font-size: 1.5em;
+    font-weight: 600;
+    align-items: center;
+}
+.goods{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 1.5rem;
+}
+.goods img{
+    width: 3em;
+}
+nav{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+nav a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-weight: 500;
+}
