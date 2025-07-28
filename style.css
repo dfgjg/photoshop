@@ -14,13 +14,16 @@ a:hover{
     cursor: url('img/icon/tiger-16x16.png'), auto;
 }
 
-.swiper-slide img{
-    width: 7vw;
+.cat{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
 }
 .swiper-slide{
-    display: grid;
-    
     color: white;
+}
+.bucket{
+    display: flex;
 }
 header{
     background-color: #FFFA65;
@@ -64,4 +67,18 @@ nav a{
     flex-direction: row;
     color: white;
     font-weight: 500;
+}
+.add-to-bucket{
+    width: 1.5em;
+}
+.swiper{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    margin-bottom: 30px;
+
+}
+.swiper-pagination{
+    margin-top: 30px;
 }
