@@ -2,8 +2,8 @@ const swiper = new Swiper('.swiper', {
     loop:true,
     
     navigation:{
-        nextEl:'.swiper-btn-next',
-        prevEl:'.swiper-btn-prev',
+        nextEl:'.swiper-button-next',
+        prevEl:'.swiper-button-prev',
     },
     autoplay:{
         delay:3000,

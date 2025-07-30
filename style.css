@@ -35,6 +35,7 @@ header{
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 .logo img{
     width:3em;
@@ -77,17 +78,77 @@ nav a{
     color: white;
     font-weight: 500;
 }
-.add-to-bucket{
-    width: 1.5em;
-}
 .swiper{
     display: flex;
     justify-content: center;
     width: 600px;
     height: 600px;
     margin-bottom: 30px;
-
+    
 }
 .swiper-pagination{
     margin-top: 30px;
+}
+.cats-products{
+    color: white;
+}
+.nav img{
+    width: 5vw;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.add-to-bucket:hover{
+    cursor: url('img/icon/tiger-16x16.png'), auto;
+}
+.goods img:hover{
+    cursor: url('img/icon/tiger-16x16.png'), auto;
+}
+.nav img:hover{
+    cursor: url('img/icon/tiger-16x16.png'), auto;
+}
+.swiper-button-next, 
+.swiper-button-prev {
+    color: #ff1212 !important;
+    top: 39% !important;
+    transform: translateY(-50%) !important;
+}
+p{
+    font-size:xx-large;
+}   
+.nav div{
+    border: 2px solid #FFFA65 ;
+    padding: 1em;
+    border-radius: 7px;
+}
+.cats-name{
+    padding-left: 3px;
+}
+.cats-price{
+    padding-left: 3px;
+}
+.cats-products-cards{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px,1fr));
+    row-gap: 2em;
+    
+}
+.card img{
+    max-width: 100%;
+    height: 400px;
+    background: #ffffff;
+    object-fit: contain;
+}
+.card .add-to-bucket{
+    height: auto;
+    background: none;
+}
+.card div{
+    display: flex;
+    background: none;
+}
+.add-to-bucket{
+    width: 3em;
 }
