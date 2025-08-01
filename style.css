@@ -5,17 +5,19 @@
     cursor: url('img/icon/fish-bone-16.png'), auto;
     margin: 0;
     padding: 0;
+    color: black;
 }
 body{
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(253, 246, 187);
     font-family: "Pacifico", cursive;
 }
 a:hover{
     cursor: url('img/icon/tiger-16x16.png'), auto;
 }
 h1{
-    color: white;
-    margin-left: 2em;
+    color: rgb(0, 0, 0);
+    margin-left: 1em;
+    font-size: 3em;
 }
 .cat{
     width: 100%;
@@ -70,7 +72,7 @@ nav a{
     margin-left: 3.2em;
 }
 .hero-about h1{
-    margin-top: 3.3em;
+    margin-top: 1.4em;
 }
 .hero-about{
     display: flex;
@@ -85,6 +87,9 @@ nav a{
     height: 600px;
     margin-bottom: 30px;
     
+}
+.about{
+    margin-left: 1em;
 }
 .swiper-pagination{
     margin-top: 30px;
@@ -117,9 +122,12 @@ nav a{
 }
 p{
     font-size:xx-large;
-}   
+} 
+.ab{
+    font-size: 4em;
+}  
 .nav div{
-    border: 2px solid #FFFA65 ;
+    border: 3px solid #000000 ;
     padding: 1em;
     border-radius: 7px;
 }
@@ -134,6 +142,10 @@ p{
     grid-template-columns: repeat(3, minmax(200px,1fr));
     row-gap: 2em;
     
+}
+.card{
+    margin-left: 10em;
+    margin-top: 3em;
 }
 .card img{
     max-width: 100%;
