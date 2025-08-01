@@ -108,6 +108,15 @@ nav a{
 .add-to-bucket:hover{
     cursor: url('img/icon/tiger-16x16.png'), auto;
 }
+.add-to-bucket2:hover{
+    cursor: url('img/icon/tiger-16x16.png'), auto;
+}
+.add-to-bucket3:hover{
+    cursor: url('img/icon/tiger-16x16.png'), auto;
+}
+.add-to-bucket4:hover{
+    cursor: url('img/icon/tiger-16x16.png'), auto;
+}
 .goods img:hover{
     cursor: url('img/icon/tiger-16x16.png'), auto;
 }
@@ -157,10 +166,31 @@ p{
     height: auto;
     background: none;
 }
+.card .add-to-bucket2{
+    height: auto;
+    background: none;
+}
+.card .add-to-bucket3{
+    height: auto;
+    background: none;
+}
+.card .add-to-bucket4{
+    height: auto;
+    background: none;
+}
 .card div{
     display: flex;
     background: none;
 }
 .add-to-bucket{
+    width: 3em;
+}
+.add-to-bucket2{
+    width: 3em;
+}
+.add-to-bucket3{
+    width: 3em;
+}
+.add-to-bucket4{
     width: 3em;
 }
