@@ -17,6 +17,7 @@ let catsBucket3 = document.querySelectorAll('.add-to-bucket3')
 let catsBucket4 = document.querySelectorAll('.add-to-bucket4')
 let price = document.querySelector('.goods-price')
 let count = document.querySelector('.count-span')
+let a = document.querySelectorAll('nav a')
 
 for (let i = 0; i<catsBucket.length; i+=1){
     catsBucket[i].addEventListener('click',function(){
@@ -42,3 +43,4 @@ for (let i = 0; i<catsBucket4.length; i+=1){
         price.innerHTML = +price.innerHTML + 200
     })
 }
+

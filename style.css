@@ -131,6 +131,13 @@ nav a{
 }
 p{
     font-size:xx-large;
+}
+nav a{
+    transition: color 0.3s;
+}
+nav a:hover{
+    color: #ff1212;
+
 } 
 .ab{
     font-size: 4em;
